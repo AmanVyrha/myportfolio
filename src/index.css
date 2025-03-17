@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 0 84% 49%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 0 0% 15%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 49%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 0 84% 49%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 0%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 0 84% 49%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 0 84% 49%;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-netflix-black text-foreground overflow-x-hidden;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}
+
+/* Custom Netflix title font */
+.font-netflix {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
+}
+
+.hero-subtitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Netflix-specific styles */
+@layer components {
+  .netflix-container {
+    @apply px-4 md:px-16 max-w-full mx-auto;
+  }
+  
+  .video-card {
+    @apply relative overflow-hidden rounded transition-all duration-300;
+  }
+  
+  .video-card:hover {
+    @apply z-10 animate-scale;
+  }
+  
+  .video-card:hover .video-card-overlay {
+    @apply opacity-100;
+  }
+  
+  .video-card-overlay {
+    @apply absolute inset-0 bg-black/60 flex flex-col justify-end p-3 md:p-4;
+  }
+  
+  .profile-card {
+    @apply flex flex-col items-center justify-center cursor-pointer transition-all duration-300;
+  }
+  
+  .profile-card:hover {
+    @apply scale-110;
+  }
+  
+  .profile-card:hover .profile-name {
+    @apply text-white;
+  }
+  
+  .profile-image {
+    @apply w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full overflow-hidden border-2 border-transparent mb-2 md:mb-3;
+  }
+  
+  .profile-card:hover .profile-image {
+    @apply border-white;
+  }
+  
+  .profile-name {
+    @apply text-netflix-gray font-light text-xs sm:text-sm transition-colors duration-300;
+  }
+  
+  .netflix-button {
+    @apply bg-netflix-red hover:bg-red-700 text-white px-3 py-1 md:px-4 md:py-1 rounded transition-colors text-sm md:text-base;
+  }
+  
+  .netflix-button-outline {
+    @apply border border-white/50 text-white hover:border-white px-3 py-1 md:px-4 md:py-1 rounded transition-colors text-sm md:text-base;
+  }
+  
+  .category-title {
+    @apply text-base md:text-lg font-medium text-white mb-2;
+  }
+  
+  .carousel {
+    @apply flex overflow-x-auto space-x-2 md:space-x-4 py-2 scrollbar-none;
+  }
+  
+  .scrollbar-none {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}
