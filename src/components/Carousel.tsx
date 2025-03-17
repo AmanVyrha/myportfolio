@@ -56,7 +56,7 @@ const Carousel = ({ title, items, onItemClick }: CarouselProps) => {
   };
 
   return (
-    <div className="netflix-container px-4 md:px-0 mb-8">
+    <div className="netflix-container px-6 md:px-6 mb-8">
       <h2 className="category-title mb-3">{title}</h2>
       
       <div className="relative group">

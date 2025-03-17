@@ -18,9 +18,12 @@ const DeveloperHero = ({
   
   return (
     <div 
-      className="relative w-full h-screen bg-cover bg-center flex flex-col justify-center items-center"
+      className="relative w-full h-screen bg-cover bg-center flex flex-col justify-center items-center overflow-hidden"
       style={{ 
-        backgroundImage: `linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 40%, rgba(0,0,0,0.4) 100%), url(${backgroundImage})` 
+        backgroundImage: `linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 40%, rgba(0,0,0,0.4) 100%), url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
       }}
     >
       <div className="text-center z-10 px-4">

@@ -365,10 +365,12 @@ const HomePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-netflix-black">
+    <div className="min-h-screen bg-netflix-black overflow-hidden">
       <Navbar profileName="Aman Vyrha" />
       
-      {renderProfileContent()}
+      <div className="w-full">
+        {renderProfileContent()}
+      </div>
       
       <Footer />
     </div>

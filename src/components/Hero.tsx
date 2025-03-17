@@ -16,14 +16,16 @@ const Hero = ({
     <div className="relative h-[70vh] sm:h-[75vh] md:h-[80vh] w-full overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
+        className="hero-background"
+        style={{ 
+          backgroundImage: `url(${backgroundImage})`
+        }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-netflix-black via-netflix-black/60 to-transparent" />
       </div>
       
       {/* Content */}
-      <div className="relative h-full netflix-container flex flex-col justify-center px-4 md:px-0">
+      <div className="relative h-full netflix-container flex flex-col justify-center px-6 md:px-8">
         <div className="max-w-xs sm:max-w-md md:max-w-2xl mt-8 md:mt-20">
           <h1 className="text-white text-2xl sm:text-3xl md:text-5xl font-bold mb-2 md:mb-4">{title}</h1>
           <p className="text-white text-sm sm:text-base md:text-lg mb-4 md:mb-6">{description}</p>

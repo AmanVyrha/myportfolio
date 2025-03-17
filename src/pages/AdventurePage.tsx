@@ -98,8 +98,10 @@ const AdventurePage = () => {
       
       <div className="relative pt-28 pb-10">
         <div 
-          className="absolute top-0 left-0 right-0 h-64 bg-cover bg-center z-0 opacity-50"
-          style={{ backgroundImage: `url(/background-clips/adventure.gif)` }}
+          className="absolute top-0 left-0 right-0 h-64 bg-cover bg-center z-0 opacity-50 hero-background"
+          style={{ 
+            backgroundImage: `url(/background-clips/adventure.gif)`
+          }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-netflix-black via-netflix-black/60 to-netflix-black"></div>
         </div>
