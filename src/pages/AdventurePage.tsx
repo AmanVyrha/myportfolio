@@ -32,7 +32,7 @@ const adventures = [
       'Photographed the beautiful landscape',
       'Camped under the stars'
     ],
-    image: 'public/assets/content/adventures/wicklow.gif',
+    image: '/assets/content/adventures/wicklow.gif',
     category: 'Hiking'
   },
   {
@@ -47,7 +47,7 @@ const adventures = [
       'Toured the magnificent Humayun\'s Tomb',
       'Experienced the grandeur of Qutub Minar'
     ],
-    image: 'public/assets/content/adventures/delhi.gif',
+    image: '/assets/content/adventures/delhi.gif',
     category: 'Cultural'
   },
   {
@@ -62,7 +62,7 @@ const adventures = [
       'Visited Fatehpur Sikri',
       'Enjoyed local cuisine'
     ],
-    image: 'public/assets/content/adventures/agra.gif',
+    image: '/assets/content/adventures/agra.gif',
     category: 'Historical'
   }
 ];

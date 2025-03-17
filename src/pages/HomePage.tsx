@@ -11,22 +11,22 @@ const projectsData = [
   {
     id: 'proj1',
     title: 'ML Prediction Engine - Customer Churn Prediction Model',
-    image: 'public/assets/content/projects/ml-prediction-engine.gif',
-    videoSrc: 'public/assets/content/projects/ml-prediction-engine.gif',
+    image: '/assets/content/projects/ml-prediction-engine.gif',
+    videoSrc: '/assets/content/projects/ml-prediction-engine.gif',
     tags: ['Python', 'Scikit-learn', 'TensorFlow']
   },
   {
     id: 'proj2',
     title: 'Data Visualization Dashboard - Interactive Sales Analytics',
-    image: 'public/assets/content/projects/data-visualisaiton.gif',
-    videoSrc: 'public/assets/content/projects/data-visualisaiton.gif',
+    image: '/assets/content/projects/data-visualisaiton.gif',
+    videoSrc: '/assets/content/projects/data-visualisaiton.gif',
     tags: ['Power BI']
   },
   {
     id: 'proj3',
     title: 'Twitter Trend Analysis - Real-Time Streamlit Dashboard',
-    image: 'public/assets/content/projects/twitter-trend-analysis.gif',
-    videoSrc: 'public/assets/content/projects/twitter-trend-analysis.gif',
+    image: '/assets/content/projects/twitter-trend-analysis.gif',
+    videoSrc: '/assets/content/projects/twitter-trend-analysis.gif',
     tags: ['Python', 'Streamlit', 'Twitter API']
   }
 ];
@@ -35,31 +35,31 @@ const skillsData = [
   {
     id: 'skill1',
     title: 'Programming Languages',
-    image: 'public/assets/content/Core Competencies/python.gif',
+    image: '/assets/content/Core Competencies/python.gif',
     tags: ['Python', 'R', 'SQL']
   },
   {
     id: 'skill2',
     title: 'Data Analysis & Modeling',
-    image: 'public/assets/content/Core Competencies/data-visualisaiton.gif',
+    image: '/assets/content/Core Competencies/data-visualisaiton.gif',
     tags: ['Pandas', 'NumPy', 'Scikit-learn']
   },
   {
     id: 'skill3',
     title: 'Data Visualization',
-    image: 'public/assets/content/experience/data-analyst.gif',
+    image: '/assets/content/experience/data-analyst.gif',
     tags: ['Power BI', 'Tableau', 'Streamlit']
   },
   {
     id: 'skill4',
     title: 'Machine Learning',
-    image: 'public/assets/content/projects/ml-prediction-engine.gif',
+    image: '/assets/content/projects/ml-prediction-engine.gif',
     tags: ['Regression', 'Classification', 'Clustering']
   },
   {
     id: 'skill5',
     title: 'Tools',
-    image: 'public/assets/content/Core Competencies/jupyter.gif',
+    image: '/assets/content/Core Competencies/jupyter.gif',
     tags: ['Jupyter Notebooks', 'Excel', 'GitHub']
   }
 ];
@@ -74,13 +74,13 @@ const experienceData = [
   {
     id: 'exp2',
     title: 'MS in Data Analytics - Dublin Business School',
-    image: 'public/assets/content/experience/master-education.gif',
+    image: '/assets/content/experience/master-education.gif',
     tags: ['Dublin/IRELAND']
   },
   {
     id: 'exp3',
     title: "Bachelor's in Science in Computer Science - University of Delhi",
-    image: 'public/assets/content/experience/bachelor-education.gif',
+    image: '/assets/content/experience/bachelor-education.gif',
     tags: ['Delhi/INDIA']
   }
 ];
@@ -89,25 +89,25 @@ const recommendationsData = [
   {
     id: 'rec1',
     title: 'Statistical Analysis',
-    image: 'public/assets/content/recommendations/statistics-analyisis.gif',
+    image: '/assets/content/recommendations/statistics-analyisis.gif',
     tags: ['Data Cleaning', 'Predictive Modeling']
   },
   {
     id: 'rec2',
     title: 'Data Transformation',
-    image: 'public/assets/content/recommendations/data-transformation.gif',
+    image: '/assets/content/recommendations/data-transformation.gif',
     tags: ['Insights', 'Visualization']
   },
   {
     id: 'rec3',
     title: 'Machine Learning Models',
-    image: 'public/assets/content/recommendations/machine-leanring-models.gif',
+    image: '/assets/content/recommendations/machine-leanring-models.gif',
     tags: ['Feature Selection', 'Model Performance']
   },
   {
     id: 'rec4',
     title: 'Business Intelligence',
-    image: 'public/assets/content/recommendations/business-intelligence.gif',
+    image: '/assets/content/recommendations/business-intelligence.gif',
     tags: ['Dashboards', 'Decision Making']
   }
 ];
@@ -117,25 +117,25 @@ const socialActivityData = [
   {
     id: 'social1',
     title: 'Recent GitHub Commits',
-    image: 'public/assets/content/social-activity/github-activity.gif',
+    image: '/assets/content/social-activity/github-activity.gif',
     tags: ['Today', '5 commits']
   },
   {
     id: 'social2',
     title: 'LinkedIn Activity',
-    image: 'public/assets/content/social-activity/linkedin-activity.gif',
+    image: '/assets/content/social-activity/linkedin-activity.gif',
     tags: ['New connection', '2 posts']
   },
   {
     id: 'social3',
     title: 'Twitter Updates',
-    image: 'public/assets/content/social-activity/twitter-activity.gif',
+    image: '/assets/content/social-activity/twitter-activity.gif',
     tags: ['3 tweets', '15 likes']
   },
   {
     id: 'social4',
     title: 'Instagram Photos',
-    image: 'public/assets/content/social-activity/instagram-activity.gif',
+    image: '/assets/content/social-activity/instagram-activity.gif',
     tags: ['2 new posts', 'Dublin, Ireland']
   }
 ];
@@ -145,25 +145,25 @@ const adventureData = [
   {
     id: 'adv1',
     title: 'Exploring Dublin',
-    image: 'public/assets/content/experience/master-education.gif',
+    image: '/assets/content/experience/master-education.gif',
     tags: ['Ireland', 'Current']
   },
   {
     id: 'adv2',
     title: 'India Travels',
-    image: 'public/assets/content/experience/bachelor-education.gif',
+    image: '/assets/content/experience/bachelor-education.gif',
     tags: ['Delhi', 'Home']
   },
   {
     id: 'adv3',
     title: 'Data Science Conferences',
-    image: 'public/assets/content/experience/conference.gif',
+    image: '/assets/content/experience/conference.gif',
     tags: ['Global', 'Learning']
   },
   {
     id: 'adv4',
     title: 'Tech Meetups',
-    image: 'public/assets/content/experience/tech.gif',
+    image: '/assets/content/experience/tech.gif',
     tags: ['Networking', 'Community']
   }
 ];

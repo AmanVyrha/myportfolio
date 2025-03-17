@@ -7,35 +7,36 @@ import { Play, ExternalLink, Github } from 'lucide-react';
 const projectsData = [
   {
     id: 'proj1',
-    title: 'ML Prediction Engine - Customer Churn Prediction Model',
-    image: 'public/assets/content/projects/ml-prediction-engine.gif',
-    videoSrc: 'public/assets/content/projects/ml-prediction-engine.gif',
-    tags: ['Python', 'Scikit-learn', 'TensorFlow'],
-    description: 'Developed a machine learning model to predict customer churn with 85% accuracy. Built data pipelines for preprocessing and implemented ensemble learning techniques to improve prediction performance.',
+    title: 'Twitter Trend Analysis',
+    image: '/assets/content/projects/twitter-trend-analysis.gif',
+    videoSrc: '/assets/content/projects/twitter-trend-analysis.gif',
+    tags: ['Python', 'Data Analysis', 'API'],
+    description: 'Developed a real-time Twitter trend analysis tool that tracks and visualizes trending topics across different regions. Implemented sentiment analysis to gauge public opinion on trending topics.',
     demoUrl: '#'
   },
   {
     id: 'proj2',
-    title: 'Data Visualization Dashboard - Interactive Sales Analytics',
-    image: 'public/assets/content/projects/data-visualisaiton.gif',
-    videoSrc: 'public/assets/content/projects/data-visualisaiton.gif',
-    tags: ['Power BI', 'DAX', 'SQL'],
-    description: 'Created an interactive data visualization dashboard for sales analytics, allowing stakeholders to filter data by region, product, and time period. Implemented advanced DAX measures for calculating KPIs.',
+    title: 'ML Prediction Engine',
+    image: '/assets/content/projects/ml-prediction-engine.gif',
+    videoSrc: '/assets/content/projects/ml-prediction-engine.gif',
+    tags: ['Machine Learning', 'Python', 'Scikit-learn'],
+    description: 'Built a machine learning prediction engine that processes historical data to forecast future trends. Implemented multiple algorithms and automated model selection based on performance metrics.',
     demoUrl: '#'
   },
   {
     id: 'proj3',
-    title: 'Twitter Trend Analysis - Real-Time Streamlit Dashboard',
-    image: 'public/assets/content/projects/twitter-trend-analysis.gif',
-    videoSrc: 'public/assets/content/projects/twitter-trend-analysis.gif',
-    tags: ['Python', 'Streamlit', 'Twitter API'],
-    description: 'Built a real-time dashboard to analyze Twitter trends and sentiment using the Twitter API. Implemented NLP algorithms to categorize tweets and visualize sentiment changes over time.',
+    title: 'Data Visualization Dashboard',
+    image: '/assets/content/projects/data-visualisaiton.gif',
+    videoSrc: '/assets/content/projects/data-visualisaiton.gif',
+    tags: ['Power BI', 'Tableau', 'SQL'],
+    description: 'Created interactive dashboards for business stakeholders to monitor key performance indicators. Implemented real-time data updates and custom visualizations for better decision-making.',
     demoUrl: '#'
   },
   {
     id: 'proj4',
     title: 'Customer Segmentation Analysis',
-    image: 'public/assets/content/social-activity/instagram-activity.gif',
+    image: '/assets/content/social-activity/instagram-activity.gif',
+    videoSrc: '/assets/content/social-activity/instagram-activity.gif',
     tags: ['Python', 'Clustering', 'K-means'],
     description: 'Performed customer segmentation analysis using K-means clustering to identify distinct customer groups. Created targeted marketing strategies based on segment characteristics.',
     demoUrl: '#'
