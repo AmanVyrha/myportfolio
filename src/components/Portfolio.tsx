@@ -183,7 +183,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
               className="w-full flex items-center gap-2 py-1.5 opacity-70 hover:opacity-100 transition-opacity"
             >
               <div className="w-6 h-6 bg-white flex items-center justify-center rounded-sm overflow-hidden">
-                <img src="/src/public/aman.jpg" alt="Aman" className="w-full h-full object-cover" />
+                <img src="/aman.jpg" alt="Aman" className="w-full h-full object-cover" />
               </div>
               <span className="text-sm font-medium">Back to Profiles</span>
             </button>
@@ -312,7 +312,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
                   </svg>
                   <span>GitHub</span>
                 </a>
-                <a href="/src/public/cv.pdf" download className="block px-4 py-3 text-white hover:bg-[#333333] transition-colors text-sm flex items-center gap-2">
+                <a href="/cv.pdf" download className="block px-4 py-3 text-white hover:bg-[#333333] transition-colors text-sm flex items-center gap-2">
                   <Download className="w-4 h-4" />
                   <span>Download CV</span>
                 </a>
@@ -381,7 +381,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
               {profileView === 'compact' && (
                 <div className="flex flex-col md:flex-row items-center gap-8">
                   <div className="w-32 h-32 rounded-full overflow-hidden shadow-xl shadow-green-900/20">
-                    <img src="/src/public/aman.jpg" alt="Aman Kumar Virha" className="w-full h-full object-cover" />
+                    <img src="/aman.jpg" alt="Aman Kumar Virha" className="w-full h-full object-cover" />
                   </div>
                   <div className="flex-1 text-center md:text-left">
                     <h1 className="text-4xl md:text-5xl font-bold mb-2 tracking-tight">Aman Kumar Virha</h1>
@@ -415,7 +415,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
                 <div>
                   <div className="flex flex-col md:flex-row gap-8 mb-8">
                     <div className="w-32 h-32 rounded-full overflow-hidden shadow-xl shadow-green-900/20 mx-auto md:mx-0">
-                      <img src="/src/public/aman.jpg" alt="Aman Kumar Virha" className="w-full h-full object-cover" />
+                      <img src="/aman.jpg" alt="Aman Kumar Virha" className="w-full h-full object-cover" />
                     </div>
                     <div className="flex-1">
                       <h1 className="text-4xl font-bold mb-2 text-center md:text-left">Aman Kumar Virha</h1>
@@ -697,7 +697,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
           <div className="flex items-center gap-3">
             <div className="w-14 h-14 overflow-hidden rounded-sm shadow-lg group">
               <img 
-                src="/src/public/aman.jpg" 
+                src="/aman.jpg" 
                 alt="Aman Kumar Virha" 
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform" 
               />
@@ -801,7 +801,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
           </svg>
           <span>GitHub</span>
         </a>
-        <a href="/src/public/cv.pdf" download className="block px-4 py-3 text-white hover:bg-[#333333] transition-colors text-sm flex items-center gap-2">
+        <a href="/cv.pdf" download className="block px-4 py-3 text-white hover:bg-[#333333] transition-colors text-sm flex items-center gap-2">
           <Download className="w-4 h-4" />
           <span>Download CV</span>
         </a>
