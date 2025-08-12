@@ -23,28 +23,28 @@ function App() {
       name: 'Aman Vyrha',
       description: 'Portfolio and Resume',
       color: 'from-green-400 to-green-600',
-      imageSrc: '' // Can add profile image here
+      imageSrc: '/_ (2).jpeg' // Main profile image
     },
     {
       id: 'projects',
       name: 'Projects',
       description: 'Tech and Creative Work',
       color: 'from-purple-400 to-purple-600',
-      imageSrc: ''
+      imageSrc: '/_ (3).jpeg'
     },
     {
       id: 'skills',
       name: 'Skills',
       description: 'Technical Skills & Expertise',
       color: 'from-pink-400 to-pink-600',
-      imageSrc: ''
+      imageSrc: '/_ (4).jpeg'
     },
     {
       id: 'contact',
       name: 'Contact',
       description: 'Get In Touch',
       color: 'from-blue-400 to-blue-600',
-      imageSrc: ''
+      imageSrc: '/_ (5).jpeg'
     }
   ];
 
