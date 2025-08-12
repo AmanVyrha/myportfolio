@@ -390,10 +390,10 @@ const Portfolio: React.FC<PortfolioProps> = ({
                       Customer-focused MSc Data Analytics candidate with hands-on experience in AI, generative AI, data analytics, and digital transformation projects. Skilled in designing and supporting AI-driven applications, machine learning models, and data visualisation dashboards.
                     </p>
                     <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-                      <button className="bg-[#1DB954] text-white px-6 py-3 rounded-full font-medium hover:bg-[#1DB954] transition-colors flex items-center gap-2">
+                      <a href="/cv.pdf" download="Aman_Kumar_Virha_CV.pdf" className="bg-[#1DB954] text-white px-6 py-3 rounded-full font-medium hover:bg-[#1DB954] transition-colors flex items-center gap-2">
                         <Download className="w-4 h-4" />
                         Download CV
-                      </button>
+                      </a>
                       <div className="flex gap-3">
                         <a href="https://a.amanvyrha.fun" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-[#1DB954] hover:text-white transition-all">
                           <ExternalLink className="w-5 h-5" />
