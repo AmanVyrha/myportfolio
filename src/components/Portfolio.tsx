@@ -312,7 +312,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
                   </svg>
                   <span>GitHub</span>
                 </a>
-                <a href="/cv.pdf" download className="block px-4 py-3 text-white hover:bg-[#333333] transition-colors text-sm flex items-center gap-2">
+                <a href="/cv.pdf" download="Aman_Kumar_Virha_CV.pdf" className="block px-4 py-3 text-white hover:bg-[#333333] transition-colors text-sm flex items-center gap-2">
                   <Download className="w-4 h-4" />
                   <span>Download CV</span>
                 </a>
@@ -801,7 +801,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
           </svg>
           <span>GitHub</span>
         </a>
-        <a href="/cv.pdf" download className="block px-4 py-3 text-white hover:bg-[#333333] transition-colors text-sm flex items-center gap-2">
+        <a href="/cv.pdf" download="Aman_Kumar_Virha_CV.pdf" className="block px-4 py-3 text-white hover:bg-[#333333] transition-colors text-sm flex items-center gap-2">
           <Download className="w-4 h-4" />
           <span>Download CV</span>
         </a>
