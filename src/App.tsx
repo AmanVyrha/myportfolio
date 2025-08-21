@@ -91,12 +91,6 @@ function App() {
       description: 'Assisted customers, including older adults, to download, install, and register the Circle K mobile app, guiding them through redeeming rewards and fuel discounts (~10–20 customers weekly).\n\nSupported colleagues during high-traffic periods to maintain service levels.'
     },
     {
-      title: 'AI & Data Intern',
-      company: 'Broz Media, India',
-      period: '04/2024 - 07/2024',
-      description: 'Designed and tested generative AI solutions for automating influencer brief creation and social media content ideation.\n\nConducted sentiment analysis on campaign data using Python and R to assess audience engagement and brand sentiment.\n\nBuilt Tableau dashboards to visualise campaign performance metrics, including engagement rate, CTR, and ROI for clients.\n\nCollaborated with cross-functional teams to implement data-driven targeting strategies, improving campaign reach by ~12%.\n\nCleaned, structured, and analysed UGC datasets to identify high-performing content trends for brand clients.'
-    },
-    {
       title: 'Operations & Data Analytics Intern',
       company: 'Delhivery Pvt, India',
       period: '11/2023 - 03/2024',
